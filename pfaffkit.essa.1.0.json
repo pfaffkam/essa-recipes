@@ -1,0 +1,29 @@
+{
+  "manifests": {
+    "pfaffkit/essa": {
+      "manifest": {
+        "bundles": {
+          "PfaffKIT\\Essa\\PfaffEssaBundle": [
+            "all"
+          ]
+        },
+        "copy-from-recipe": {
+          "config/": "%CONFIG_DIR%"
+        }
+      },
+      "files": {
+        "config/packages/essa.yaml": {
+          "contents": [
+            "essa:",
+            "    # Choose one of following based on installed storage connectors",
+            "    default_event_storage: null",
+            "    # default_event_storage: PfaffKIT\\Essa\\Adapters\\Storage\\DoctrineEventStorage # pfaffkit/essa-storage-doctrine-connector",
+            ""
+          ],
+          "executable": false
+        }
+      },
+      "ref": "092a747d18bdbdf4402bd9608178b905c016024b"
+    }
+  }
+}
