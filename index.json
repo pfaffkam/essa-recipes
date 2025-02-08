@@ -3,5 +3,12 @@
     "pfaffkit/essa": [
       "1.0"
     ]
+  },
+  "branch": "master",
+  "is_contrib": true,
+  "_links": {
+    "repository": "github.com/pfaffkam/essa-recipes",
+    "origin_template": "{package}:{version}@github.com/pfaffkam/essa-recipes:master",
+    "recipe-template": "https://api.github.com/repos/pfaffkam/essa-recipes/contents/{package_dotted}.{version}.json"
   }
 }
