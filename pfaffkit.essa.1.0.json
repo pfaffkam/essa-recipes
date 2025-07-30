@@ -17,6 +17,7 @@
             "essa:",
             "    # Choose one of following based on installed storage connectors",
             "    default_event_storage: null",
+            "    integration_event_amqp_dsn: null",
             "    # default_event_storage: PfaffKIT\\Essa\\Adapters\\Storage\\DoctrineEventStorage # pfaffkit/essa-storage-doctrine-connector",
             ""
           ],
